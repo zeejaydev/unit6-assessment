@@ -6,10 +6,10 @@ const {shuffleArray} = require('./utils')
 
 var Rollbar = require('rollbar')
 var rollbar = new Rollbar({
-  accessToken: '7ebeea3f4c414cf99adea7c43530d35f',
-  captureUncaught: true,
-  captureUnhandledRejections: true,
-})
+    accessToken: 'c6ccd2d646a349febb2e735e3d299dd7',
+    captureUncaught: true,
+    captureUnhandledRejections: true
+});
 
 app.use(express.json());
 app.use(express.static('public'));
